@@ -6,19 +6,19 @@
 
 #### Activity Diagram
 
-![Activity Diagram](doc/diagrams/Coffee Supplychain Activity Diagram.png)
+![Activity Diagram](diagrams/Coffee_Supplychain_Activity_Diagram.png)
 
 #### Sequence Diagram
 
-![Sequence Diagram](doc/diagrams/Coffee Supplychain Sequence Diagram.png)
+![Sequence Diagram](diagrams/Coffee_Supplychain_Sequence_Diagram.png)
 
 #### State Diagram
 
-![State Diagram](doc/diagrams/Coffee Supplychain State Diagram.png)
+![State Diagram](diagrams/Coffee_Supplychain_State_Diagram.png)
 
 #### Class Diagram
 
-![Class Diagram](doc/diagrams/Coffee Supplychain Data Model.png)
+![Class Diagram](diagrams/Coffee_Supplychain_Data_Model.png)
 
 ## Dependencies
 

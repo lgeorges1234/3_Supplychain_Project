@@ -6,7 +6,7 @@
 
 #### Activity Diagram
 
-![Activity Diagram](doc/diagrams/Coffee Supplychain Activity Diagram.png)
+![Activity Diagram](diagrams/Coffee Supplychain Activity Diagram.png)
 
 #### Sequence Diagram
 

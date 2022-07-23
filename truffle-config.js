@@ -18,11 +18,12 @@
  *
  */
 
-// const HDWallet = require('truffle-hdwallet-provider');
-// const infuraKey = "fj4jll3k.....";
-//
-// const fs = require('fs');
-// const mnemonic = fs.readFileSync(".secret").toString().trim();
+  // const HDWallet = require('truffle-hdwallet-provider');
+  const HDWalletProvider = require('truffle-hdwallet-provider');
+  const infuraKey = "2ad2ac13c92343c6bfe93cff9db8a981";
+  //
+  const fs = require('fs');
+  const mnemonic = fs.readFileSync(".secret").toString().trim();
 
 module.exports = {
   /**
@@ -36,6 +37,7 @@ module.exports = {
    */
 
   contracts_build_directory: "./app/build/contracts",
+
 
   networks: {
     // Useful for testing. The `development` name is special - truffle uses it by default
@@ -54,6 +56,13 @@ module.exports = {
       host: "127.0.0.1",
       port: 9545,
       network_id: "*" // Match any network id
+    },
+
+    rinkeby: {
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
+        network_id: 4,       // rinkeby's id
+        gas: 4500000,        // rinkeby has a lower block limit than mainnet
+        gasPrice: 10000000000
     },
 
     // Another network with more advanced options...

@@ -21,9 +21,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 Please make sure you've already installed ganache-cli, Truffle and enabled MetaMask extension in your browser.
 
-```
-Give examples (to be clarified)
-```
+#### Dependencies
+
+This project uses the following libraries:
+
+- web app:
+
+    lite-server v2.6.1
+
+- contracts
+
+    Truffle v5.5.22 (core: 5.5.22)
+    Ganache v7.3.2
+    Solidity v0.5.16 (solc-js)
+    Node v12.22.12
+    Web3.js v1.7.4
+
 
 ### Installing
 
@@ -92,17 +105,18 @@ In a separate terminal window, launch the DApp:
 npm run dev
 ```
 
+## Contract Hash
+
+The contract has been deployed on the Rinkeby Testing Network getting the following contract address:
+
+- 0x66764d55f81cc6c04484919f02d723b1aeafc3c3bbe659f988b085777018c1f9
+
+
 ## Built With
 
 * [Ethereum](https://www.ethereum.org/) - Ethereum is a decentralized platform that runs smart contracts
-* [IPFS](https://ipfs.io/) - IPFS is the Distributed Web | A peer-to-peer hypermedia protocol
 to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
+* [Web3 library](https://web3js.readthedocs.io/en/v1.7.4/) - Web3 is a collection of libraries that allow you to interact with a local or remote ethereum node using HTTP, IPC or WebSocket.
 
 
-## Acknowledgments
-
-* Solidity
-* Ganache-cli
-* Truffle
-* IPFS
